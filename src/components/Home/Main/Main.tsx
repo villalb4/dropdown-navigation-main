@@ -1,6 +1,10 @@
 import React from 'react'
 import './Main.css'
 import hero from '../../../assets/image-hero-desktop.png'
+import databiz from '../../../assets/client-databiz.svg'
+import audiophile from '../../../assets/client-audiophile.svg'
+import meet from '../../../assets/client-meet.svg'
+import maker from '../../../assets/client-maker.svg'
 
 function Main() {
   return (
@@ -12,6 +16,20 @@ function Main() {
             </div>
             <div className='Main_divLearnButton'>
                 <button className='Main_learButton'>Learn more</button>
+            </div>
+            <div className='Main_divCompanies'>
+                <div className='Main_divCompany'>
+                    <img className='Main_Companie' src={databiz} alt="Company" />
+                </div>
+                <div className='Main_divCompany'>
+                    <img className='Main_Companie' src={audiophile} alt="Company" />
+                </div>
+                <div className='Main_divCompany'>
+                    <img className='Main_Companie' src={meet} alt="Company" />
+                </div>
+                <div className='Main_divCompany'>
+                    <img className='Main_Companie' src={maker} alt="Company" />
+                </div>
             </div>
         </section>
         <div className='Main_divHero'>

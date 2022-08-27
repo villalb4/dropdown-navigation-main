@@ -28,6 +28,11 @@ nav {
     line-height: 15px;
     letter-spacing: -0.05em;
     color: #686868;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.Nav_span:hover {
+    color: var(--Almost-Black)
 }
 
 .Nav_divButtons {
@@ -47,6 +52,10 @@ nav {
     line-height: 15px;
     letter-spacing: -0.05em;
     color: #686868;
+    transition: all 0.3s ease;
+}
+.Nav_buttonLO:hover {
+    color: var(--Almost-Black);
 }
 .Nav_buttonRE {
     padding: 11px 22px 12px 22px;
@@ -59,4 +68,9 @@ nav {
     line-height: 15px;
     letter-spacing: -0.035em;
     color: #686868;
+    transition: all 0.3s ease;
+}
+.Nav_buttonRE:hover {
+    border-color: var(--Almost-Black);
+    color: var(--Almost-Black);
 }

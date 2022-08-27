@@ -51,4 +51,16 @@
     background-color: var(--Almost-Black);
     border: 2px solid transparent;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Main_learButton:hover {
+    background-color: transparent;
+    border-color: var(--Almost-Black);
+    color: var(--Almost-Black);
+}
+
+.Main_divCompanies {
+    display: flex;
+    max-width: 477.66px;
+    justify-content: space-between;
 }
