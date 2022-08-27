@@ -1,0 +1,54 @@
+.Main_component {
+    display: flex;
+    max-width: 1145px;
+    margin: 0 auto 130px auto;
+    justify-content: space-between;
+    width: 100%;
+}
+.Main_divHero {
+    max-width: 480px;
+    width: 100%;
+    overflow: hidden;
+}
+.Main_heroDesktop {
+    max-width: 480px;
+}
+
+.Main_title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81px;
+    letter-spacing: -0.015em;    
+    color: var(--Almost-Black);
+    max-width: 513px;
+    margin: 103px 0 47px 0;
+}
+
+.Main_divSubTitle {
+    max-width: 429px;
+    margin-bottom: 51px;
+}
+
+.Main_subTitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 153.5%;
+    letter-spacing: 0.005em;
+    color: var(--Medium-Gray);
+}
+
+.Main_divLearnButton {
+    margin: 50px 0 120px 0;
+}
+.Main_learButton {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 153.5%;
+    letter-spacing: -0.045em;
+    color: var(--Almost-White);
+    padding: 11px 27px 11px 28px;
+    border-radius: 13px;
+    background-color: var(--Almost-Black);
+    border: 2px solid transparent;
+    cursor: pointer;
+}

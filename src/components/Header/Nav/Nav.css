@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.Nav_ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    /* background-color: aqua; */
+}
+.Nav_lidivContent {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* background-color: brown; */
+    margin-top: 1px;
+}
+.Nav_divIconArrow {
+    display: flex;
+    /* background-color: blue; */
+    margin-bottom: 2px;
+}
+.Nav_span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.05em;
+    color: #686868;
+}
+
+.Nav_divButtons {
+    display: flex;
+    max-width: 196px;
+    width: 100%;
+    justify-content: space-between;
+}
+.Nav_buttonLO {
+    padding: 11px 14px 12px 13px;
+    border: 2px solid transparent;
+    border-radius: 13px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.05em;
+    color: #686868;
+}
+.Nav_buttonRE {
+    padding: 11px 22px 12px 22px;
+    border-radius: 13px;
+    border: 2px solid #686868;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.035em;
+    color: #686868;
+}

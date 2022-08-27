@@ -1,0 +1,12 @@
+header {
+    padding: 0 30px;
+    margin-bottom: 35px;
+}
+.header_component {
+    display: flex;
+    align-items: center;
+    gap: 64.5px;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 28px 0;
+}
