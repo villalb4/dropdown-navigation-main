@@ -5,21 +5,21 @@ nav {
     width: 100%;
 }
 .Nav_ul {
+    position: relative;
     display: flex;
     list-style: none;
-    gap: 40px;
-    /* background-color: aqua; */
+}
+.Nav_li {
+    padding: 20px;
 }
 .Nav_lidivContent {
     display: flex;
     align-items: center;
     gap: 6px;
-    /* background-color: brown; */
     margin-top: 1px;
 }
 .Nav_divIconArrow {
     display: flex;
-    /* background-color: blue; */
     margin-bottom: 2px;
 }
 .Nav_span {
@@ -73,4 +73,43 @@ nav {
 .Nav_buttonRE:hover {
     border-color: var(--Almost-Black);
     color: var(--Almost-Black);
+}
+
+.Nav_dropdown {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 16px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px #0000001e;
+    left: -55px;
+}
+.Nav_ulDropdown {
+    list-style: none;
+}
+.Nav_liDropdown {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    padding: 0px 0px 0px 7px;
+    width: 133px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Nav_liDropdown:hover {
+    background-color: rgba(0, 255, 255, 0.138);
+}
+.Nav_divImageDropdown {
+    /* background-color: aqua; */
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.Nav_spanDropdown {
+    font-size: 15px;
+    color: var( --Medium-Gray);
 }
