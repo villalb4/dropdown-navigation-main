@@ -31,7 +31,7 @@ nav {
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.Nav_span:hover {
+.Nav_span.open {
     color: var(--Almost-Black)
 }
 
@@ -112,4 +112,26 @@ nav {
 .Nav_spanDropdown {
     font-size: 15px;
     color: var( --Medium-Gray);
+}
+
+
+.Nav_dropdownCp {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 17px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px #0000001e;
+}
+
+.Nav_ulDropdownCp {
+    list-style: none;
+}
+
+.Nav_liDropdownCp {
+    padding: 9px;
+    cursor: pointer;
+}
+.Nav_liDropdownCp:hover {
+    background-color: rgba(0, 255, 255, 0.138);
 }
